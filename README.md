@@ -1,1 +1,22 @@
-Used WSL Ubuntu shell to open VS Code and I notice the message Running in Ubuntu (WSL2)
+WSL Ubuntu shell runs VS Code in Ubuntu (WSL2), but Linux environment seems inaccessible via Github Desktop.
+
+'Git push' successful after switching remote URLs from HTTPS to SSH.
+
+1. Open Git bash
+2. Change the current working directory to your local project.
+3. List your existing remotes in order to get the name of the remote you want to change.
+
+$ git remote -v
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+4. Change your remote's URL from HTTPS to SSH with the git remote set-url command.
+
+git remote set-url origin git@github.com:OWNER/REPOSITORY.git
+
+5. Verify that the remote URL has changed.
+
+$ git remote -v
+# Verify new remote URL
+> origin  git@github.com:OWNER/REPOSITORY.git (fetch)
+> origin  git@github.com:OWNER/REPOSITORY.git (push)
