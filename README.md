@@ -1,4 +1,4 @@
-WSL Ubuntu shell runs VS Code in Ubuntu (WSL2), but Linux environment seems inaccessible via Github Desktop.
+WSL Ubuntu shell runs VS Code in Ubuntu (WSL2), but terminal will not open. Further, Linux environment seems inaccessible via Github Desktop.
 
 'Git push' successful after switching remote URLs from HTTPS to SSH.
 
