@@ -16,7 +16,7 @@ WSL Ubuntu shell runs VS Code in Ubuntu (WSL2), but Linux environment seems inac
 
 5. Verify that the remote URL has changed.
 
-	$ git remote -v
+	$ git remote -v Verify new remote URL
 	> origin  git@github.com:OWNER/REPOSITORY.git (fetch)
 	> origin  git@github.com:OWNER/REPOSITORY.git (push)
 
